@@ -1,0 +1,219 @@
+.defaultlabel{
+    font-family: "Calibri";
+    font-size: 10pt;
+}
+.defaultwhitelabel{
+    font-family: "Calibri";
+    font-size: 14pt;
+    color: #ffffff;
+}
+.errorlabel{
+    margin: 0px 0px 0px 5px;
+    font-family: "Calibri";
+    font-size: 10pt;
+    font-weight:bold;
+}
+.iconplacement{
+    margin: 0px 0px 0px 20px;
+}
+.fillgreen{
+    color:#1fb57d;
+}
+.fillred{
+    color:#e22737;
+}
+.hide{
+    display:none;
+}
+.show{
+    display:block;
+}
+.hidemsg{
+    opacity:0;
+}
+.showmsg{
+    opacity:1;
+}
+.fillblue{
+    background: '#3F7AB5';
+}
+.filllightblue{
+    background: '#3F7AB5';
+}
+
+.addRow{
+    height:50px; margin: 30px 10px 10px 10px;
+}
+
+.textBoxStyle {
+	border:1px solid #d1c7ac;
+    width:200px;
+    height:30px;
+	color:#6f7f85;
+    font-weight: bold;
+    font-size: 10pt;
+	padding:3px 3px 3px 15px;
+	margin-right:4px;
+	margin-bottom:8px;
+    border-radius: 3px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.redLink{
+    color:#ff0000;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.redLink:hover{
+    color:#ff0000;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.greenLink{
+    line-height: 7;
+    color:#01ab6b;
+    text-decoration: none;
+    font-size: 9pt;
+    right: 2%;
+}
+
+.greenLink:hover{
+    line-height: 7;
+    color:#01ab6b;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 9pt;
+}
+
+.tableDisplay{
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.tableRowDisplay{
+    height:30pt; margin: 0px;
+    color: #6f7f85
+}
+.tableRowDisplayBlue{
+    height:30pt; margin: 0px;
+    background-color: #f8f9f9;
+    color: #6f7f85
+}
+.tableRowHeaderDisplay{
+    height:20pt; margin: 0px; font-weight: bold;
+    background-color: #e8eceb;
+    color: #6f7f85;
+}
+
+.tableCellDisplay1{
+    height:30pt;
+    font-family: "Verdana";
+    font-size: 9pt;
+    padding: 3px;
+}
+
+.tableCellDisplay2{
+    height:30pt;
+    font-family: "Verdana";
+    font-size: 9pt;
+    padding: 3px;
+}
+
+.tableCellHeaderDisplay1{
+    font-family: "Verdana";
+    font-size: 9pt;
+    padding: 3px;
+}
+
+.tableCellHeaderDisplay2{
+    font-family: "Verdana";
+    font-size: 9pt;
+    padding: 3px;
+}
+
+.textBoxStyle1{
+    width:200px;
+    height:30px;
+    margin: 0px 10px 0px 5px;
+    font-size: 10pt;
+}
+
+.buttonStyle{
+    width:80px;
+    margin: 0px 0px 0px 0px;
+    font-size: 10pt;
+}
+
+.deleteButtonStyle{
+    cursor: pointer;
+}
+
+.badge2 {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    color: #6f7f85;
+    line-height: 1.2;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #e8eceb;
+    border-radius: 10px;
+}
+
+div.header_01 { height: 30pt; display: inline-block; line-height: 40px;}
+.graybody { background: #e8eceb }
+
+div.col_200 { flex: 3 200px;}
+div.col_150 { flex: 3 150px;}
+div.col_100 { flex: 2 100px;}
+div.col_050 { flex: 1 50px;}
+div.col_00 { flex: 0 18px;}
+
+
+span.addbtnstyle{ 
+    left: 0px;
+    top: 13px;
+    
+    }
+
+.btnstyle {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 10pt;
+  background: #01ab6b;
+  padding: 8px 25px 8px 25px;
+  text-decoration: none;
+}
+
+.btnstyle:hover {
+  background: #1b9461;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btnstyleDisabled {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #01ab6b;
+  color: #01ab6b;
+  font-size: 10pt;
+  background: #ffffff;
+  padding: 8px 25px 8px 25px;
+  text-decoration: none;
+  pointer-events: none;
+  cursor: default;
+}
